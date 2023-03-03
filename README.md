@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## usersテーブル
 
-Things you may want to cover:
+|Colum              |Type      |Option      |
+|-------------------|----------|------------|
+|name               |string    |null:false  |
+|email              |string    |null:false  |
+|encrypted_password |string    |null:false  |
 
-* Ruby version
+### Association
 
-* System dependencies
 
-* Configuration
 
-* Database creation
+## recipesテーブル
+|Colum              |Type      |Option      |
+|-------------------|----------|------------|
+|recipe_name        |string    |null:false  |
+|genre              |string    |null:false  |
+|food               |string    |null:false  |
+|quantity           |string    |null:false  |
+|content            |string    |null:false  |
 
-* Database initialization
+### Association
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<!-- 都度足して行く -->
